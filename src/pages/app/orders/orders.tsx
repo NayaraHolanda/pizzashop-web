@@ -4,7 +4,7 @@ import { useSearchParams } from 'react-router-dom'
 import { z } from 'zod'
 
 import { getOrders } from '@/api/get-orders'
-import { Pagination } from '@/components/ui/pagination'
+import { Pagination } from '@/components/pagination'
 import {
   Table,
   TableBody,
